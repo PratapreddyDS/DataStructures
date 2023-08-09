@@ -23,3 +23,7 @@ class Solution:
 solution = Solution()
 answer = solution.countGoodNumbers(50)
 print(answer)
+
+
+
+
