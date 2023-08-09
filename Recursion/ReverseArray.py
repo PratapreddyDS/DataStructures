@@ -18,17 +18,14 @@ print(Arr)
 
 def checkPalindrome(string,f,l):
 
-
     if f >= l:
-        return
+        return True
 
     if string[f] != string[l]:
         return False
 
-    checkPalindrome(string,f+1,l-1)
-
-    return True
+    return checkPalindrome(string,f+1,l-1)
 
 
-status = checkPalindrome("SMADAMS", 0, 6)
+status = checkPalindrome("SMADAMSK", 0, 7)
 print(status)
