@@ -32,6 +32,10 @@ if vacant > 1 and last != -1:
 if vacant > 1 and last == -1:
     people += (vacant+1)//2
 
+indexArray = []
+for i in range(M):
+    if ar[i] == 1:
+        indexArray.append(i)
 
 
 
